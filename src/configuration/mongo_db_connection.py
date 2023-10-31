@@ -8,6 +8,7 @@ from src.constant import *
 from src.exception import CustomException
 
 ca = certifi.where()
+MONGO_DB_URL = "mongodb+srv://abc:abc@cluster0.lj6xm5o.mongodb.net/?retryWrites=true&w=majority"
 
 
 class MongoDBClient:
